@@ -6,5 +6,5 @@ class ApplicationController < ActionController::Base
   def index
     puts "hola!"
   end
-  
+
 end
