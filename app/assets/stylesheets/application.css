@@ -29,6 +29,10 @@ h1 {
   font-size: 0.8em;
 }
 
+img {
+  max-width: 100%;
+}
+
 h2 {
   text-align: center;
 }
@@ -80,5 +84,6 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #ddd;
-
+  position: sticky;
+  
 }
