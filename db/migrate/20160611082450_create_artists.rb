@@ -1,6 +1,4 @@
 class CreateArtists < ActiveRecord::Migration
-  has_and_belongs_to_many :festivals
-
   def change
     create_table :artists do |t|
       t.string :name

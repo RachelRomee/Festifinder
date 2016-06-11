@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   resources :artist
   resources :festival
 
+  resources :calendar, only: [:index]
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

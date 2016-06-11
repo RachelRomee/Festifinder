@@ -1,6 +1,4 @@
 class CreateFestivals < ActiveRecord::Migration
-  has_and_belongs_to_many :festivals
-
   def change
     create_table :festivals do |t|
       t.datetime :start_date
