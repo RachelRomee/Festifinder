@@ -5,7 +5,7 @@ class FestivalController < ApplicationController
   end
 
   def show
-    @festival = Festival.find( params[:id] )
+    @festival = Festival.find(params[:id])
   end
 
 end

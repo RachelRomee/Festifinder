@@ -2,29 +2,24 @@
 <div class="container">
 
 
-<div class="row">
-    <!-- Column for name, description .. -->
-  <div class="col-md-8">
-  <h2> <%= @artist.name %></h2>
-  <h3>Genre: </h3>
-  <%= @artist.genre %>
-  <h3>Description</h3>
-  <%= @artist.description %>
-  <h3>Line Up</h3>
+  <div class="row">
+      <!-- Column for name, description .. -->
+    <div class="col-md-8">
+    <h2> <%= @artist.name %></h2>
+    <h3>Genre: </h3>
+    <%= @artist.genre %>
+    <h3>Description</h3>
+    <%= @artist.description %>
+    <h3>Line Up</h3>
 
 
-  #Hier moet de lineup komen!!
+    #Hier moet de lineup komen!!
 
   </div>
 
 
   <!-- Column for time, location .. -->
   <div class="col-md-4">
-    <div class="right-photo">
-      <a href="#"><p>Hier komt de google map</p></a>
-    </div>
-    <div class="right-photo">
-      <a href=#><p> <%= @festival.photo %></p></a>
-    </div>
+      <a href=#><p> <%= @artist.photo %></p></a>
   </div>
 </div>

@@ -24,10 +24,12 @@ h1 {
   font-weight: 300;
   letter-spacing: 0.15em;
   font-size: 4em;
-  padding-top: 100px;
 }
-h2 .slogan {
+.slogan {
   font-size: 0.8em;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -43,15 +45,19 @@ h2 .slogan {
 
 .homebutton {
   background-color: blue;
-  margin 20px;
   text-align: center;
   height: 150px;
+  padding-top: 55px;
+  font-size: 2em;
+  border: 1px solid black;
+  margin: 40px;
 }
 
 .nav {
   background-color: #ffd9da;
   height: 50px;
   padding-left: 30px;
+  margin-bottom: 40px;
 }
 
 .nav-bar {
@@ -71,7 +77,8 @@ h2 .slogan {
   text-align: center;
   font-size: 0.9em;
   color: #E01E4D;
-  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #ddd;
 
 }
