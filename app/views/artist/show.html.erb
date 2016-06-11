@@ -6,7 +6,7 @@
       <!-- Column for name, description .. -->
     <div class="col-md-8">
     <h2> <%= @artist.name %></h2>
-    <h3>Genre: </h3>
+    <h3>Genre </h3>
     <%= @artist.genre %>
     <h3>Description</h3>
     <%= @artist.description %>
@@ -20,6 +20,6 @@
 
   <!-- Column for time, location .. -->
   <div class="col-md-4">
-      <a href=#><p> <%= @artist.photo %></p></a>
+      <p> <%= image_tag @artist.photo %></p>
   </div>
 </div>
