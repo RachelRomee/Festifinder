@@ -13,3 +13,63 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  font-size: 4em;
+  padding-top: 100px;
+}
+h2 .slogan {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+
+
+.search-bar {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+.homebutton {
+  background-color: blue;
+  margin 20px;
+  text-align: center;
+  height: 150px;
+}
+
+.nav {
+  background-color: #ffd9da;
+  height: 50px;
+  padding-left: 30px;
+}
+
+.nav-bar {
+  padding: 15px 0px;
+}
+.nav-bar li {
+  display: inline;
+  padding: 0px 25px;
+}
+.nav-bar li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #E01E4D;
+  margin-top: 30px;
+  background-color: #ddd;
+
+}
