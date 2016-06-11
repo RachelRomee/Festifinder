@@ -1,23 +1,39 @@
   <!-- # festival show -->
 
-
 <div class="container">
-  <div class="column-left left-image">
-    <h2> <%= @festival.name %></h2>
-    <h3>Description</h3>
-    <%= @festival.description %>
-    <h3>Line Up</h3>
 
-    #Hier moet de lineup komen!!
+
+<div class="row">
+    <!-- Column for name, description .. -->
+  <div class="col-md-6">
+  <h2> <%= @festival.name %></h2>
+  <h3>Description</h3>
+  <%= @festival.description %>
+  <h3>Line Up</h3>
+
+
+  #Hier moet de lineup komen!!
 
   </div>
-  <div class="column-right">
+  <!-- Column for time, location .. -->
+  <div class="col-md-2">
+    <h5 class="h5-title">Start time:</h5>
+    <h5> <%= @festival.start_date %></h5>
+    <h5 class="h5-title">End time:</h5>
+    <h5> <%= @festival.end_date %></h5>
+    <h5 class="h5-title">Location:</h5>
+    <h5> <%= @festival.location %></h5>
+    <h5 class="h5-title">Genre:</h5>
+    <h5> <%= @festival.genre %></h5>
+  </div>
+
+  <!-- Column for time, location .. -->
+  <div class="col-md-4">
     <div class="right-photo">
       <a href="#"><p>Hier komt de google map</p></a>
     </div>
     <div class="right-photo">
       <a href=#><p> <%= @festival.photo %></p></a>
-    </div>
     </div>
   </div>
 </div>
