@@ -11,6 +11,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20160611082505) do
+
+  create_table "artists", force: :cascade do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "genre"
+    t.string   "country"
+    t.string   "photo"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "artists_festivals", force: :cascade do |t|
+  end
+
+  create_table "festivals", force: :cascade do |t|
+    t.datetime "start_date"
+    t.datetime "end_date"
+    t.string   "name"
+    t.text     "description"
+    t.decimal  "price"
+    t.string   "photo"
+    t.string   "location"
+    t.string   "genre"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
 end
