@@ -1,0 +1,8 @@
+<h1>FESTIVALS</h1>
+
+
+<%= @festivals.each do |festival| %>
+  <p> Name: <%= festival.name %></p>
+  <p> Location: <%= festival.location %></p>
+  <p> Price: <%= festival.price %></p>
+<% end %>

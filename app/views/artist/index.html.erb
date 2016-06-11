@@ -1,0 +1,10 @@
+<h1>Artists</h1>
+
+<p>
+  holaaa
+</p>
+<%= @artists.each do |artist| %>
+  <p> Name: <%= artist.name %></p>
+  <p> Genre: <%= artist.genre %></p>
+  <p> Country: <%= artist.country %></p>
+<% end %>
